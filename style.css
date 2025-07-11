@@ -21,6 +21,14 @@ header ul {
   margin: 0;
   justify-content: space-between;
   width: 100%;
+  gap: 1rem;
+}
+h1 {
+  text-align: center;
+  color: #C13B78;
+}
+.profession {
+  text-align: center;
 }
 .pfp {
   border-radius: 50%;
