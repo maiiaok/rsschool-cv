@@ -2,10 +2,103 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <link rel="icon" href="./icon.ico">
+    <link rel="stylesheet" href="./style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>cv</title>
 </head>
 <body>
-    <p>hello</p>
+    <div class="container">
+        <header>
+            <nav>
+                <ul class="nav_list">
+                    <li><a href="#about">About me</a></li>
+                    <li><a href="#education">Education</a></li>
+                    <li><a href="#skills">Skills</a></li>
+                    <li><a href="#code">Code</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#contact">Contacts</a></li>
+                </ul>
+            </nav>
+        </header>
+        <main>
+            <div class="columns">
+                <div class="first-column">
+                    <section id="contact">
+                        <h2>Contact Me</h2>
+                        <ul>
+                            <li>Discord: okonm</li>
+                            <li>Github: <a href="https://github.com/maiiaok"> github.com/maiiaok</a></li>
+                            <li>Telegram: <a href="https://t.me/mnsov"> t.me/mnsov</a></li>
+                        </ul>
+                    </section>
+                    <section id="education">
+                        <h2>Education</h2>
+                        <p>NEFU Apllied Mathematics 2017-2021</p>
+                    </section>
+                    <section id="languages">
+                        <h2>Languages</h2>
+                        <ul>
+                            <li>Russian - Native</li>
+                            <li>Sakha - Native</li>
+                            <li>English - B1</li>
+                        </ul>
+                    </section>
+                </div>
+                <div class="second-column">
+                    <section id="profile">
+                        <img src="assets\img\pfp_photo.jpg" alt="Profile Photo" class="pfp">
+                        <h1 align="center">Maiia Okoneshnikova</h1>
+                        <p align="center">Learner</p>
+                    </section>
+                    <section id="about">
+                        <h2>About Me</h2>
+                        <p>Hi! I'm currently learning web development and enjoy expanding my skills in both tech and creativity. Besides coding, I love handcrafts like crocheting and cross-stitching!</p>
+                    </section>
+                    <section id="skills">
+                        <h2>Skills</h2>
+                        <ul>
+                            <li>HTML</li>
+                            <li>CSS</li>
+                            <li>SQL</li>
+                            <li>Python</li>
+                        </ul>
+                    </section>
+                    <section id="code">
+                        <h2>Code</h2>
+                        <code>
+                        </code>
+                        <pre class="language-js">
+    function multiply(a, b){
+        return a * b
+    }
+                        </pre>
+                        </code>
+                    </section>
+                    <section id="projects">
+                        <h2>Projects</h2>
+                        <ul>
+                            <li><a href="https://maiiaok.github.io/rsschool-cv/">CV project</a></li>
+                        </ul>
+                    </section>
+                </div>
+            </div>
+        </main>
+        <footer>
+            <div class="footer-content">
+                <div class="footer-section">
+                    <a href="https://rs.school/courses/javascript-ru"><img src="assets\svg\rs-school-logo.svg" height="50px"></a>
+                </div>
+                <div class="footer-section">
+                    <p>2025</p>
+                </div>
+                <div class="footer-section">
+                    <a href="https://github.com/maiiaok"><img src="assets\svg\github-logo.svg" height="50px"></a>
+                </div>
+            </div>
+        </footer>
+    </div>
 </body>
 </html>
